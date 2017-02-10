@@ -297,3 +297,20 @@ header a:hover {
   color: #7e8287;
   text-align: center;
 }
+
+/* start max-width 1200*/
+@media screen and (max-width: 1200px) {
+  header h1 {
+    font-size: 33px;
+  }
+  header h2 {
+    font-size: 68px;
+    letter-spacing: 16px;
+  }
+  header img {
+    width: 100px;
+  }
+  header a {
+    font-size: 12px;
+  }
+}
